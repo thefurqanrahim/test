@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  border: 1px solid;
+  width: 10%;
+ margin: 20px 0;
+ padding: 10px 0 0 0;
+ text-align: center;
+}
+.child-container{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  overflow: hidden;
+}
+#pera{
+  border: 1px solid;
+  width: 30%;
+  margin: 10px 0 -10px 0;
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px){
+	.main-container{
+ width: 50%
+  }
+}
